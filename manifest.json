@@ -226,7 +226,9 @@
           "githubUrl": "git+https://github.com/microsoft/TypeScript.git",
           "source": "build_file:package.json"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/fc351c5d6efd8dc2be7bb6cdc406412d2e8b76c3/chunk-001.nq.gz",
+      "dep": "dep/fc351c5d6efd8dc2be7bb6cdc406412d2e8b76c3.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
