@@ -1,0 +1,16 @@
+[2026-11-21T23:24:12Z] === ENRICH ITERATION 1 START | repo=princjef/commitlint-azure-pipelines-cli sha=fc351c5d ===
+[2026-11-21T23:24:12Z] [iter=1] PHASE START: enrich repo=princjef/commitlint-azure-pipelines-cli sha=fc351c5d runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/fc351c5d-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/fc351c5d6efd8dc2be7bb6cdc406412d2e8b76c3.nq.gz
+[2026-11-21T23:24:25Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=81 MB
+[2026-11-21T23:24:25Z] [iter=1] AST store loaded triples=10561 load_secs=0 mem_mb=101 MB
+[2026-11-21T23:24:25Z] [iter=1] Step 2: Finding LSP targets mem_mb=101 MB
+[2026-11-21T23:24:25Z] [iter=1] LSP targets found call_sites=109 imports=8 extends=0 implements=0 secs=0
+[2026-11-21T23:24:25Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=101 MB
+[2026-11-21T23:24:25Z] [iter=1] Position index built positions=724 nodes_with_types=856 secs=0 mem_mb=101 MB
+[2026-11-21T23:24:25Z] [iter=1] Step 3: Starting LSP resolution mem_mb=101 MB already_completed_types=[] already_completed_files=0
+[2026-11-21T23:24:25Z] [iter=1] Resolving target type target_type=call_site count=109
+[2026-11-21T23:24:31Z] [iter=1] Target type resolved target_type=call_site resolved=70 errors=0 secs=7 mem_mb=101 MB
+[2026-11-21T23:24:31Z] [iter=1] Resolving target type target_type=import_statement count=8
+[2026-11-21T23:24:32Z] [iter=1] Target type resolved target_type=import_statement resolved=2 errors=0 secs=1 mem_mb=101 MB
+[2026-11-21T23:24:36Z] [iter=1] Step 5: Writing final enrichment file triples=1149
+[2026-11-21T23:24:36Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/fc351c5d6efd8dc2be7bb6cdc406412d2e8b76c3.nq.gz size_kb=15
+[2026-11-21T23:24:36Z] [iter=1] PHASE END: enrich elapsed_s=24 elapsed_min=0.4 total_triples=1149
